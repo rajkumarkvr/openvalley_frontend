@@ -5,7 +5,7 @@ function LandingPage(){
 
     return (
       <>
-      <div className="header"><img src="f2c0602a-3271-4e5b-9f6c-78af7568de24-removebg-preview" className="logo"/>
+      <div className="header"><img src="" className="logo"/>
         <button className="btn in sign-btn" onClick={() => navigate("/login")}>Sign In</button>
       <button className="btn sign-btn" onClick={() => navigate("/login")}>Sign Up</button></div>
           <div className="div1">
