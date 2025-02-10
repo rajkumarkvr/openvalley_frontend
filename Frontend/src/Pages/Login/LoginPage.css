@@ -1,8 +1,19 @@
 .loginImg{
-    width: 68%;
+    width: 70%;
     height: 100%;
-    background-color: aqua;
+    background-image: url(/Images/loginPageImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     object-fit: cover;
+}
+
+.loginPageRightSide{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
 }
 
 .page{
@@ -13,27 +24,27 @@
 }
 
 .loginBox{
-    margin: auto auto;
-    width: 32%;
-    height: 30%;
+    background-color: rgba(233, 231, 231, 0.89);
+    color: black;
+    width: 70%;
+    height: 43%;
+    margin-bottom: 18px;
+    padding: 4%;
+    border: 2px solid 09122C;
+    border-radius: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;    
     justify-content: space-between;
 }
 
-.loginForm{
-    width: 49%;
-    height: 100%;
-    background-color: lightblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    justify-content: center;
+.loginSwitch{
+    align-items: center;
+    margin-bottom: 10px;
+    color: rgb(0, 136, 255);
 }
 
-input{
-    height: 15%;
-    padding-left: 2%;
-    width: 40%;
+.loginSwitch:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }

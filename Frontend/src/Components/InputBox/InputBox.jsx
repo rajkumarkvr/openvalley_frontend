@@ -1,9 +1,10 @@
-import "./InputBox.css";
 
-function InputBox({type,placeholder}){
+import { TextField } from "@mui/material";
+
+
+function InputBox({placeholder}){
     return(
-        // <input type={type} placeholder={placeholder} />
-        // <input type={type} placeholder={placeholder}/>
+        <TextField id="outlined-basic" label={placeholder} variant="outlined"  />
     )
 }
 
