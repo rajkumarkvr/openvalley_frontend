@@ -1,7 +1,6 @@
 // import 'bootstrap/dist/css/bootstrap.css'
 import LoginPage from './Pages/Login/LoginPage.jsx';
 import HomePage from './Pages/HomePage/HomePage.jsx';
-import NewRepository from './Pages/NewRepository/NewRepository.jsx';
 import "./App.css"
 import { Route,Routes } from 'react-router-dom';
 
@@ -18,6 +17,23 @@ function App() {
       </Routes>
     </>
   )
+  list = [
+  {
+    name:"Frontend",
+    latestCommitMessage:"something",
+    timestamp:"2mins",
+  },
+  {
+    name:"Frontend",
+    latestCommitMessage:"something",
+    timestamp:"2mins",
+  },
+    {
+    name:"Frontend",
+    latestCommitMessage:"something",
+    timestamp:"2mins",
+  },
+ ]
 }
 
 export default App
