@@ -1,0 +1,105 @@
+body{
+    background-color: #09122C;
+    color: white; 
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px 20px;
+    background-color:#09122C; 
+  }
+  .proName{
+    font-size: 30px;
+  color: #0AF5F9;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  }
+  .logo {
+    width: 50px; 
+    margin-left:40px;
+  }
+  .logoContainer {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+  }
+  .authBtn {
+    display: flex;
+    gap: 10px; 
+  }
+  
+.div1{
+    margin-left:470px;
+    height:100px;
+    width:1000px;
+}
+.start{
+    height:70px;
+    width:200px;
+    margin-left:350px;
+    margin-top:80px;
+    display:flex;
+    justify-content: center;
+ align-items: center;
+    /* border:2px solid white; */
+}
+.slogan{
+    font-size: 86px;
+    max-width: 1000px; 
+    line-height: 1; 
+    text-indent: 60px;
+    padding-top:80px;
+}
+.header1{
+    margin-top:50px;
+    font-size:20px;
+    font-weight:100;
+   margin-left:140px;
+}
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    height:40px;
+    border-radius: 6px; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background-color: #6A4ECC; 
+    color: white;
+}
+.getBtn{
+    height:46px;
+}
+    .AiImg{
+            margin-left: 400px;
+        
+    }
+.btn:hover {
+        background-color: #5A3EB5;
+        border-color: #4A2E9F;
+    transform: scale(1.05); 
+}
+
+.btn:active {
+    background-color: #5A3EB5; 
+    border-color: #4A2E9F;
+    transform: scale(0.98); 
+}
+
+.sign-btn {
+    background-color: #8A6FFC; 
+    /* border: 2px solid #6A4ECC;  */
+}
+
+.sign-btn:hover {
+    background-color: #6A4ECC;
+    border-color: #5A3EB5;
+}
+.in{
+    margin-right:10px;
+}
+

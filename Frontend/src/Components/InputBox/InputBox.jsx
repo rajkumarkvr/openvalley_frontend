@@ -4,7 +4,10 @@ import { TextField } from "@mui/material";
 
 function InputBox({placeholder}){
     return(
-        <TextField id="outlined-basic" label={placeholder} variant="outlined"  />
+ landing-page
+        // <input type={type} placeholder={placeholder} />
+        <input type={type} placeholder={placeholder}/>
+
     )
 }
 
