@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./LoginPage.css"
-import InputBox from "../../Components/InputBox/InputBox";
-import { Button } from "@mui/material";
-import ButtonComp from "../../Components/Button/ButtonComp";
+import {Button,TextField} from "@mui/material";
 
 function LoginPage({isSignedIn}){
 
@@ -32,10 +30,10 @@ function signUpBox(){
     return(
         <div className="loginBox">
             <h1>Register</h1>
-            <InputBox type="text" placeholder="Username" />
-            <InputBox type="Email" placeholder="Email" />
-            <InputBox type="password" placeholder="Password" />
-            <ButtonComp value={"Sign Up"} />
+            <TextField label="Username" id="outlined-basic" variant="outlined" />
+            <TextField label="Email" id="outlined-basic" variant="outlined" />  
+            <TextField label="Password" id="outlined-basic" variant="outlined" />
+            <Button variant="contained">Sign Up</Button>
         </div>
     )   
 }
@@ -43,11 +41,11 @@ function signUpBox(){
 function signInBox(){
 
     return(
-        <div className="loginBox" style={{height:"33%"}}>
+        <div className="loginBox" style={{height:"32%"}}>
         <h1>Login</h1>
-        <InputBox type="text" placeholder="Username or Email"/>       
-        <InputBox type="password" placeholder="Password" />
-        <ButtonComp value={"Sign In"} />
+        <TextField label="Username or Email" id="outlined-basic" variant="outlined" />  
+        <TextField label="Password" id="outlined-basic" variant="outlined" />
+        <Button variant="contained">Sign In</Button >
     </div>
     )   
 }

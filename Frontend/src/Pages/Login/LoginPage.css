@@ -1,14 +1,16 @@
 .loginImg{
-    width: 70%;
+    width: 60%;
     height: 100%;
     background-image: url(/Images/loginPageImg.jpg);
     background-repeat: no-repeat;
+    background-position: -10rem 0;
     background-size: cover;
     object-fit: cover;
+    box-shadow: 5px 0 20px 10px #302f2f;
 }
 
 .loginPageRightSide{
-    width: 30%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -26,12 +28,12 @@
 .loginBox{
     background-color: rgba(233, 231, 231, 0.89);
     color: black;
-    width: 70%;
-    height: 43%;
+    width: 60%;
+    height: 42%;
     margin-bottom: 18px;
-    padding: 4%;
+    padding: 3% 0;
     border: 2px solid 09122C;
-    border-radius: 3%;
+    border-radius: 4%;
     display: flex;
     flex-direction: column;
     align-items: center;    

@@ -1,16 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 // import 'bootstrap/dist/css/bootstrap.css'
 import LoginPage from './Pages/Login/LoginPage.jsx';
 import HomePage from './Pages/HomePage/HomePage.jsx';
+import NewRepository from './Pages/NewRepository/NewRepository.jsx';
 import "./App.css"
+import { Route,Routes } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      {/* <LoginPage isSignedIn={false} /> */}
       <HomePage />
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/createRepository" element={<LoginPage />} />
+        <Route exact path="/profile" element={<LoginPage />} />
+        <Route exact path="/createRepository" element={<LoginPage />} />
+        <Route exact path="/settings" element={<LoginPage />} />
+      </Routes>
     </>
   )
 }
