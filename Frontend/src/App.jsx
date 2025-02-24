@@ -1,8 +1,8 @@
 // import 'bootstrap/dist/css/bootstrap.css'
-import LoginPage from './Pages/Login/LoginPage.jsx';
-import HomePage from './Pages/HomePage/HomePage.jsx';
-import "./App.css"
-import { Route,Routes } from 'react-router-dom';
+import LoginPage from "./Pages/Login/LoginPage.jsx";
+import HomePage from "./Pages/HomePage/HomePage.jsx";
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -16,24 +16,24 @@ function App() {
         <Route exact path="/settings" element={<LoginPage />} />
       </Routes>
     </>
-  )
+  );
   list = [
-  {
-    name:"Frontend",
-    latestCommitMessage:"something",
-    timestamp:"2mins",
-  },
-  {
-    name:"Frontend",
-    latestCommitMessage:"something",
-    timestamp:"2mins",
-  },
     {
-    name:"Frontend",
-    latestCommitMessage:"something",
-    timestamp:"2mins",
-  },
- ]
+      name: "Frontend",
+      latestCommitMessage: "something",
+      timestamp: "2mins",
+    },
+    {
+      name: "Frontend",
+      latestCommitMessage: "something",
+      timestamp: "2mins",
+    },
+    {
+      name: "Frontend",
+      latestCommitMessage: "something",
+      timestamp: "2mins",
+    },
+  ];
 }
 
-export default App
+export default App;
